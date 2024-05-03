@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import { GifApp } from './GifApp.tsx'
+import { GifApp } from "./GifApp.tsx";
 
-import './styles.css';
+import "./styles.css";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <GifApp/>
-  </React.StrictMode>,
-)
+    <GifApp />
+  </React.StrictMode>
+);
