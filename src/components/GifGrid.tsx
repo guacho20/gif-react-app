@@ -6,8 +6,6 @@ export const GifGrid = ({ category }) => {
 
   const { images, isLoading } = useGifs(category);
 
-  console.log(images, isLoading);
-
   return (
     <>
       <h3>{category}</h3>
