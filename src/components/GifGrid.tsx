@@ -1,5 +1,5 @@
+import { useGifs } from "../hooks";
 import { GifItem } from "./GifItem";
-import { useGifs } from "../hooks/useGifs";
 
 export const GifGrid = ({ category }) => {
   // realizar peticion http
